@@ -176,7 +176,7 @@ If you deliver client-side scripts using the CDN, you may encounter issues if th
 
 ### Custom domains
 
-The Azure CDN allows you to specify a [custom domain name](./cdn/cdn-map-content-to-custom-domain.md) nd use it to access resources through the CDN. You can also set up a custom subdomain name using a *CNAME* record in your DNS. Using this approach can provide an additional layer of abstraction and control.
+The Azure CDN allows you to specify a [custom domain name](./cdn/cdn-map-content-to-custom-domain.md) and use it to access resources through the CDN. You can also set up a custom subdomain name using a *CNAME* record in your DNS. Using this approach can provide an additional layer of abstraction and control.
 
 If you use a *CNAME*, you cannot use SSL because the CDN uses its own single SSL certificate, and this certificate will not match your custom domain/subdomain names.
 
